@@ -1,0 +1,147 @@
+
+        
+h1
+{
+    font-size: 36px;
+      
+}
+.Parrafo
+{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    
+  
+}
+
+/*Escritorio*/
+@media (min-width: 1200px) 
+{
+
+    body
+    {
+    background: linear-gradient(#ffffff 41%, #d44c4b 40%);
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    h1
+    {
+        color: #6e2121;
+          text-align: center;
+
+    }
+  .Parrafo
+    {
+        font-size: 16px;
+            text-align: center;
+        text-justify:center;
+        
+
+    }
+    a
+    {
+        padding: 5px 0px 34px 20px; 
+            margin-left: 0px;
+    }
+ 
+   
+}
+
+/*Tablet*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+     body
+    {
+        background: linear-gradient(#b0c455 41%, #336699 40%);
+        font-family: 'Raleway', sans-serif;
+      
+    }
+    h1
+    {
+        color:#ffffff;
+          text-align: center;
+
+        
+    }
+     .Parrafo
+    {
+       font-size: 16px;
+          text-align: center;
+        text-justify:center;
+
+        
+
+    }
+    a
+    {
+        padding: 5px 0px 34px 20px; 
+            margin-left: 0px;
+    }
+ 
+    
+}
+
+/*Small Tablet*/
+@media (min-width: 576px) and (max-width: 991px)
+{
+   body
+    {
+     background: linear-gradient(#b43e5a 41%, #543d54 40%);
+        font-family: 'Raleway', sans-serif;
+      
+    }
+    h1
+    {
+        color: #eaeac6;
+          text-align: left;
+
+        
+    }
+    .Parrafo
+    {
+       font-size-adjust: 16px;
+          text-align: justify;
+     
+
+    }
+     a
+    {
+        padding: 0px 0px 0px 845px; 
+            margin-left: 0px;
+    }
+     
+
+ 
+}
+
+/*Smartphone*/
+@media (max-width: 575px)
+{
+   body
+    {
+           background: linear-gradient(#d8ad54 41%, #749346 40%);
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    h1
+    {
+        color: #ffffff;
+          text-align: left;
+
+    }
+    .Parrafo
+    {
+        color: #000000;
+        font-size: 16px;
+          text-align: justify;
+
+    }
+       a
+    {
+        padding: 0px 0px 0px 415px; 
+            margin-left: 0px;
+    }
+     
+
+   
+}
